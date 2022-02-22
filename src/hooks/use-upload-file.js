@@ -4,7 +4,7 @@ import {
   getDownloadURL,
   ref as sRef,
   uploadBytesResumable,
-} from "https://www.gstatic.com/firebasejs/9.6.7/firebase-storage.js";
+} from "firebase/storage";
 
 const useUploadFile = function () {
   const uploadFile = function (img) {
