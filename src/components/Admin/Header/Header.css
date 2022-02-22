@@ -1,0 +1,10 @@
+.header {
+  background-color: black;
+  padding: 2rem;
+}
+
+.header__heading {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #fff;
+}

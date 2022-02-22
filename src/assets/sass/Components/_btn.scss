@@ -1,0 +1,55 @@
+.btn {
+  border: 0;
+  background-color: inherit;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__el {
+    margin-left: 1rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.btn--aqua {
+  background-color: $color-primary;
+}
+
+.btn--brown {
+  background-color: $color-secondary;
+}
+
+.btn--round {
+  border-radius: 40px;
+  box-shadow: $soft-shadow;
+}
+
+.btn--tertiary {
+  display: block;
+  text-decoration: underline;
+  padding: 1.5rem 0rem;
+  font-size: 1.5rem;
+  transition: all 0.4s;
+  color: $color-primary;
+  margin: 1rem 0;
+
+  &:hover {
+    padding: 1.5rem 1rem;
+    background-color: $color-primary;
+    color: $color-dark;
+    text-decoration: none;
+  }
+}
+
+.btn--active {
+  padding: 1.5rem 1rem;
+  background-color: $color-primary;
+  color: $color-dark;
+  text-decoration: none;
+}

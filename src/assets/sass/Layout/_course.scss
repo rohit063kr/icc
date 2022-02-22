@@ -1,0 +1,40 @@
+.course {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-gap: 5rem;
+
+  &__card {
+    padding: 2rem;
+    box-shadow: $soft-shadow;
+    border-radius: 4px;
+    max-width: 30rem;
+  }
+
+  &__heading {
+    margin-bottom: 1.8rem;
+  }
+
+  &__hurry {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: $color-secondary;
+  }
+
+  &__features {
+    list-style: none;
+  }
+
+  &__feature {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  &__list-style {
+    margin-right: 0.4rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+}

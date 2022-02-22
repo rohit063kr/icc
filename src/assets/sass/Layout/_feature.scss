@@ -1,0 +1,49 @@
+.feature {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+  }
+
+  &__rev {
+    @media only screen and (max-width: 700px) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__main-heading {
+    margin-bottom: 8.5rem;
+  }
+
+  &__text-box {
+    width: 40%;
+
+    @media only screen and (max-width: 1000px) {
+      width: 50%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__text {
+    line-height: 3rem;
+  }
+
+  &__text-box > *:not(:last-child) {
+    margin-bottom: 3.4rem;
+  }
+
+  &__img {
+    width: 40%;
+
+    @media only screen and (max-width: 700px) {
+      width: 80%;
+      margin-bottom: 5rem;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800;900&family=Roboto:wght@100;300;400;500&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 56.25%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 43.75%;
+  }
+
+  @media only screen and (max-width: 400px) {
+    // font-size: 37.5%;
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto";
+  position: relative;
+  overflow: auto;
+}

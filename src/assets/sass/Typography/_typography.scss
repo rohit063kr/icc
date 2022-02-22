@@ -1,0 +1,28 @@
+.heading--primary {
+  font-size: 3.6rem;
+}
+
+.heading--secondary {
+  font-size: 3.2rem;
+  font-weight: bolder;
+  color: $color-black;
+}
+
+.heading--tertiary {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: $color-black;
+}
+
+.text--primary {
+  color: rgba($color-dark, 84%);
+  font-size: 1.4rem;
+}
+
+.text--secondary {
+  font-size: 1.6rem;
+}
+
+.bold-text {
+  font-weight: 900;
+}

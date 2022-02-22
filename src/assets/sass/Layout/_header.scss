@@ -1,0 +1,113 @@
+.header {
+  position: relative;
+  padding-top: 20rem;
+  padding-bottom: 14rem;
+
+  &__content-container {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__heading {
+    @media only screen and (max-width: 500px) {
+      line-height: 4.4rem;
+    }
+  }
+
+  &__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+    @media only screen and (max-width: 1200px) {
+      width: 50%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      width: 70%;
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+      width: 80%;
+    }
+  }
+
+  &__text-box > *:not(:last-child) {
+    margin-bottom: 2.6rem;
+
+    @media only screen and (max-width: 500px) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__img {
+    width: 40%;
+
+    @media only screen and (max-width: 700px) {
+      display: none;
+    }
+  }
+
+  &__text {
+    @media only screen and (max-width: 500px) {
+      line-height: 2.2rem;
+    }
+  }
+
+  &__btn-box {
+    @media only screen and (max-width: 700px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__btn .btn__el {
+    margin-left: 1rem;
+    transition: margin-left 0.4s;
+  }
+
+  &__btn:hover .btn__el {
+    margin-left: 2rem;
+  }
+
+  &__chevron-circle {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, 0%);
+
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: $soft-shadow;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-primary;
+    }
+
+    @media only screen and (max-width: 700px) {
+      // display: none;
+      transform: translate(-50%, 80%);
+    }
+  }
+
+  &__chevron-icon {
+    width: 50%;
+    height: 50%;
+  }
+}
