@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/292.aa6f6879.chunk.js","mappings":"2HAKA,UAHmB,WACjB,OAAO,SAAC,EAAAA,SAAD","sources":["components/Admin/Forms/RemoveForm.js"],"sourcesContent":["import { Fragment } from \"react\";\n\nconst RemoveForm = function () {\n  return <Fragment></Fragment>;\n};\nexport default RemoveForm;\n"],"names":["Fragment"],"sourceRoot":""}

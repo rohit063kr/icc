@@ -8,7 +8,9 @@ const RemoveForm = React.lazy(() =>
 const UpdateForm = React.lazy(() =>
   import("./components/Admin/Forms/UpdateForm")
 );
-const AddCourse = React.lazy("./components/Admin/Forms/AddCourse");
+const AddCourse = React.lazy(() =>
+  import("./components/Admin/Forms/AddCourse")
+);
 const AddFaculty = React.lazy(() =>
   import("./components/Admin/Forms/AddFaculty")
 );

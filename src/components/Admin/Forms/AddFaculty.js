@@ -2,6 +2,8 @@ import useInput from "../../../hooks/use-input";
 import useHttp from "../../../hooks/use-http";
 import Button from "../UI/Button";
 
+import "./Form.css";
+
 import useUploadFile from "../../../hooks/use-upload-file";
 
 const AddFaculty = function () {
